@@ -28,6 +28,7 @@ html {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
   margin: 0;
   font-family: "Open Sans Condensed", Arial, sans-serif;
   font-weight: 700;
-  scroll-behavior: smooth;
+
 }
 
 img {
@@ -288,11 +289,12 @@ a {
   line-height: 120%;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: transparent;
   color: #fff;
+  background-color: transparent;
   border-radius: 8px;
   border: 2px solid #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .contact-link:hover {
