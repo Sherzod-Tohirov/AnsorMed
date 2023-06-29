@@ -171,10 +171,14 @@ a {
 
 
 .hero {
-  padding: 120px 0;
-  background: #0eb4c1 url("../images/herobg.png") no-repeat calc(50% + 335px);
+  padding-top: 29px;
+  background-color: #0eb4c1;
 }
-
+.hero-outer-wrapper {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
 .hero-wrapper {
   display: flex;
   flex-direction: column;
